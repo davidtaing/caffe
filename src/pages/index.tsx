@@ -15,14 +15,15 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <main>
         <Navbar />
         <div className="jumbotron">
           <h2>We Love Coffee</h2>
+          <video autoPlay loop muted width="100%" height="100%">
+            <source src="/homepage-bg.mp4" type="video/mp4" />
+          </video>
         </div>
       </main>
-
-      <footer className={styles.footer}></footer>
     </div>
   );
 };
