@@ -3,6 +3,7 @@ import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
 import Navbar from "../components/Navbar/Navbar";
+import Jumbotron from "../components/Jumbotron/Jumbotron";
 import styles from "../styles/Home.module.css";
 import "semantic-ui-css/semantic.min.css";
 
@@ -17,12 +18,7 @@ const Home: NextPage = () => {
 
       <main>
         <Navbar />
-        <div className="jumbotron">
-          <h2>We Love Coffee</h2>
-          <video autoPlay loop muted width="100%" height="100%">
-            <source src="/homepage-bg.mp4" type="video/mp4" />
-          </video>
-        </div>
+        <Jumbotron />
       </main>
     </div>
   );
