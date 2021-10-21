@@ -4,12 +4,10 @@ import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar";
 import Jumbotron from "../components/Jumbotron/Jumbotron";
 import ProductRecommendations from "../components/ProductRecommendations/ProductRecommendations";
-import styles from "../styles/Home.module.css";
-import "semantic-ui-css/semantic.min.css";
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <div className="homepage">
       <Head>
         <title>caffè</title>
         <meta name="homepage" content="caffè store page" />
