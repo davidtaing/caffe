@@ -12,7 +12,7 @@ const ProductCard = () => (
       <Card.Header>Coco</Card.Header>
       <Card.Meta>$20.00</Card.Meta>
       <Card.Description>
-        Straight from Columbia. Chocolatey with hints of canned peaches. <br />
+        Chocolatey with hints of canned peaches. <br />
         <br />
         <em>Available in 200g, 500g and 1kg sizes.</em>
       </Card.Description>
